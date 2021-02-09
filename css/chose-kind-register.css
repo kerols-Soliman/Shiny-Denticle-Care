@@ -1,0 +1,88 @@
+body{
+    background-image: url("chose-back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5%;
+    
+    user-zoom: 110%;
+}
+/* register div*/
+
+.divmid ,.divmid-login{
+    overflow: hidden;
+    
+    margin:-400px  auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px 3px #007bff;
+    padding: 20px;
+    position: relative;
+}
+/* back button */
+.bt-back ,.bt-back-kind ,.bt-back-regist{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    cursor: pointer;
+    color: blue;
+}
+.bt-back-regist{
+    top: 5%;
+}
+
+/*************/
+.divmid h2{
+ text-align: center;
+    color: #007bff;
+}
+.btn{
+    width: 50%;
+    margin-left: -70%;
+    margin-top: 20px;  
+}
+.hide{
+    display: none;
+}
+.bt-sign-up{
+    display: inline;
+    cursor: pointer;
+}
+.bt-sign-up:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+/* choose kind register  */
+
+.chose-kind{
+    border: 2px solid blue;
+    border-radius: 25px;
+    box-shadow: 0 0 20px blue;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 800px;
+    color: blue;
+    background: rgba(244,249,252,0.6);
+    position: relative;
+}
+.backcolo{
+    background: rgba(244,249,252,0.6);    
+}
+.chose-div{
+    float: left;
+    margin-left: 55px;
+    /*width: 55px;*/
+    text-align: center;
+}
+.chose-div img{
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.chose-div img:hover{
+    border: 2px solid;
+    border-radius: 200px;
+}
+
